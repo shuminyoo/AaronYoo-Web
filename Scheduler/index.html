@@ -4,66 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scheduler for 2021~2022</title>
-    <style></style>
-
-
+    <title>Scheduler for 6 Sept ~ 10 Sept</title>
+    <style>
+         table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        }
+        th, td {
+            padding:15px;
+        }
+        th {
+            background-color:yellow;
+        }
+        td#td_0, td#td_1, td#td_2, td#td_2.5 td#td_3, td#td_4, {
+            background-color: rgb(255, 255, 232);
+            font-size: 90%;
+        }
+         .Monday, .Wednesday, .Friday{
+            background-color:rgb(243, 243, 224);
+        }
+        .Tuesday, .Thursday {
+            background-color:rgb(255, 255, 232);
+        }
+        img {
+            width:300px;
+            height: auto;
+        }
+     
+     </style>
 </head>
 <body>
-    <h4>Schedule for BCC 2021</h4>
-    <table border = "5">
+    <h2>Schedule for BCC 6 Sept ~ 10 Sept</h2>
+    <table>
+    <colgroup>
+        <col>
+        <col span="1" class="Monday">
+        <col span="1" class="Tuesday">
+        <col span="1" class="Wednesday">
+        <col span="1" class="Thursday">
+        <col span="1" class="Friday">
+    </colgroup>   
+    <thaed> 
         <tr>
-            <th> </th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
+            <th id="empty">#</th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+            <th scope="col">Wednesday</th>
+            <th scope="col">Thursday</th>
+            <th scope="col">Friday</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td id="td_0">7:00 ~ 8:35</td>
+            <td colspan = "5">Morning Study Session</td>
         </tr>
         <tr>
-            <td></td>
-            <td>OOOO</td>
-            <td>HHHH</td>
-            <td>EEEEE</td>
-            <td>CCCCC</td>
-            <td>DDSS</td>
+            <td id="td_1">8:45 ~ 10:00</td>
+            <td>Webpage Development</td>
+            <td>Biology 9</td>
+            <td>Webpage Development</td>
+            <td>Biology 9</td>
+            <td>Webpage Development</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id= "td_2">10:10 ~ 11:25</td>
+            <td>AP World History </td>
+            <td>Graphic Design II</td>
+            <td>AP World History</td>
+            <td>Graphic Design II</td>
+            <td>AP World History</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id="td_2.5">11:25 ~ 12:35</td>
+            <td colspan = "5">Lunch</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            
+            <td id= "td_3">12:35 ~ 1:50</td>
+            <td>Algebra II</td>
+            <td>Chinese II</td>
+            <td>Algebra II</td>
+            <td>Chinese II</td>
+            <td>Algebra II</td>        
         </tr>
-      
-
-
-
-
-
-
-
-
-
-
-
+        <tr>
+            <td id="td_4">2:00 ~ 3:15</td>
+            <td>PE 10</td>
+            <td>American Literature</td>
+            <td>PE 10</td>
+            <td>American Literature</td>
+            <td>PE 10</td>
+        </tr>
+        </tbody>
     </table>
+    <h3>Happiness</h3>
+    <img src="Liquid_cat.jpeg">
+    <img src="Liquid_Cat_Stairs.gif">
 </body>
 </html>
