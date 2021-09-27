@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shamazon Customer Survey</title>
+    <link href="surstyle.css" rel="stylesheet">
+</head>
+<body>
+    <img src="shamazonlogofinal.jpg">
+    <h1 id="surtitle">Shamazon Customer Survey</h1>
+    <p id="subtitle" class="example">This will only take a minute of your time! :)</p>
+    <div id="basicinfo" class="para">
+        <h3>Name</h3>
+            <input type="text" name="cstmrname" id="name01" class="example" value="first name">
+            <input type="text" name="cstmrname2" id="name02" class ="example" value="last name">
+        <h3>Phone Number</h3>
+            <input type="number" list="numfirst" id="pnum" class="example" value="010">
+            <datalist id="numfirst">
+                <option value="010"></option>
+                <option value="011"></option>
+                <option value="012"></option>
+                <option value="015"></option>
+                <option value="016"></option>
+                <option value="017"></option>
+                <option value="018"></option>
+                <option value="019"></option>
+                <option value="02"></option>
+                <option value="031"></option>
+                <option value="032"></option>
+                <option value="041"></option>
+                <option value="042"></option>
+                <option value="043"></option>
+                <option value="044"></option>
+                <option value="051"></option>
+                <option value="052"></option>
+                <option value="053"></option>
+                <option value="054"></option>
+                <option value="055"></option>
+                <option value="061"></option>
+                <option value="062"></option>
+                <option value="063"></option>
+                <option value="064"></option>
+            </datalist>
+            - <input type="password" id="pnum" class="example" value="1234">
+            - <input type="number" id="pnum" class="example" value="5678">
+        <h3>Email</h3>
+            <input type="text" name="email" id="email" value="johndoe" class="example">
+            @ <input type="text" list="endmail" id="email" value="example.com" class="example">
+            <datalist id="endmail">
+                <option value="naver.com"></option>
+                <option value="daum.net"></option>
+                <option value="hanmail.net"></option>
+                <option value="gmail.com"></option>
+                <option value="hotmail.com"></option>
+                <option value="icloud.com"></option>
+                <option value="kakao.com"></option>
+                <option value="yahoo.com"></option>
+        </datalist>
+        <h3>Age</h3>
+            <input type="radio" name="ageanswer" id="agegroup">10s</input>
+            <input type="radio" name="ageanswer" id="agegroup">20s</input>
+            <input type="radio" name="ageanswer" id="agegroup">30s</input>
+            <input type="radio" name="ageanswer" id="agegroup">40s</input>
+            <input type="radio" name="ageanswer" id="agegroup">50s</input>
+            <input type="radio" name="ageanswer" id="agegroup">60s</input>
+            <input type="radio" name="ageanswer" id="agegroup">70s or higher</input>
+        <h3>Sex</h3>
+            <input type="radio" name="genderanswer" id="gender">Male</input>
+            <input type="radio" name="genderanswer" id="gender">Female</input>
+            <input type="radio" name="genderanswer" id="gender">No answer</input>
+            <p id="pretxt">Now we will ask some questions about your time with Shamazon. Please answer the questions carefully.</p>
+    </div>
+    <div id="main1" class="para">
+        <h4 class="multiq">1. How usually do you shop online?</h4>
+            <input type="radio" name="rdshp" id="shpus"><label for="shpus">Once a week</label><br>
+            <input type="radio" name="rdshp" id="shpus"><label for ="shpus">Every other week</label><br>
+            <input type="radio" name="rdshp" id="shpus"><label for="shpus">Once a month</label><br>
+            <input type="radio" name="rdshp" id="shpus"><label for ="shpus">Every other month</label><br>
+            <input type="radio" name="rdshp" id="shpus"><label for="shpus">Once a year</label><br>
+            <input type="radio" name="rdshp" id="shpus"><label for ="shpus">Never</label><br>
+    </div>
+    <div id="main2" class="para">
+        <h4 class="mixq">2. Do you prefer shopping online rather than offline? If so, why?</h4>
+            <input type="radio" name="rdpre" id="onoff"><label for="onoff">Yes</label>
+            <input type="radio" name="rdpre" id="onoff"><label for ="onoff">No</label><br>
+            <input type="checkbox" name="onpre1" id="chckpre"><label for="chckpre">Fast</label><br>
+            <input type="checkbox" name="onpre2" id="chckpre"><label for="chckpre">Ease of use</label><br>
+            <input type="checkbox" name="onpre3" id="chckpre"><label for="chckpre">Many items to choose</label><br>
+            <input type="checkbox" name="onpre4" id="chckpre"><label for="chckpre">Cheap</label><br>
+            <input type="checkbox" name="onpre5" id="chckpre"><label for="chckpre">Reliable</label><br>
+            <input type="checkbox" name="onpre0" id="chckpre"><label for="txtpre">Other (please specify)</label><br>
+            <textarea id="txtpre" name="onpre01" rows="2" cols="20"></textarea>
+    </div>
+    <div id="main3" class="para">
+        <h4>3. Which of the following online shopping services do you prefer?</h4>
+            <input type="radio" name="rdser1" id="onshpser"><label for="onshpser">Shamazon</label><br>
+            <input type="radio" name="rdser2" id="onshpser"><label for="onshpser">Amazon</label><br>
+            <input type="radio" name="rdser3" id="onshpser"><label for="onshpser">Ebay</label><br>
+            <input type="radio" name="rdser4" id="onshpser"><label for="onshpser">Walmart</label><br>
+            <input type="radio" name="rdser5" id="onshpser"><label for="onshpser">Target</label><br>
+            <input type="radio" name="rdser0" id="onshpser"><label for="onshpser">Other (please specify)</label><br>
+                <textarea id="txtshpser" name="rdser01" rows="2" cols="20"></textarea>
+    </div>
+    <div id="main4" class="para">
+        <h4 class="singleq">4. Are you happy with the provided service from Shamazon?</h4>
+            <input type="range" name="sat" id="shphapp" list="tickmarks">
+            <datalist id="tickmarks">
+                <option value="0" label="0"></option>
+                <option value="10"></option>
+                <option value="20"></option>
+                <option value="30"></option>
+                <option value="40"></option>
+                <option value="50" label="5"></option>
+                <option value="60"></option>
+                <option value="70"></option>
+                <option value="80"></option>
+                <option value="90"></option>
+                <option value="100" label="10"></option>
+            </datalist>
+    </div>
+    <div id="main5" class="para">
+        <h4 class="singleq">5. Have you seen any Shamazon ads?</h4>
+        <input type="radio" name="rdad" id="shamad"><label for="shamad">Yes</label>
+        <input type="radio" name="rdad" id="shamad"><label for="shamad">No</label><br>   
+    </div>
+    <div id="main6" class="para">
+        <h4 class="singleq">6. Shamzon recently launced a new service called Shamzon Prime. Have you heard of it?</h4>
+            <input type="radio" name="shamprime" id="chckprime"><label for ="chckprime">Yes</label>
+            <input type="radio" name="shamprime" id="chckprime"><label for ="chckprime">No</label><br>
+    </div> 
+    <div id="main7" class="para">
+        <h4 class="multiq">7. What do you most expect from a online shopping service?</h4>
+            <input type="radio" name="rdexpect1" id="onexpect"><label for="onexpect">Quick and easy delivery</label><br>
+            <input type="radio" name="rdexpect2" id="onexpect"><label for="onexpect">Low costs</label><br>
+            <input type="radio" name="rdexpect3" id="onexpect"><label for="onexpect">Friendly customer service</label><br>
+            <input type="radio" name="rdexpect4" id="onexpect"><label for="onexpect">Appealing user interface</label><br>
+            <input type="radio" name="rdexpect5" id="onexpect"><label for="onexpect">Large selection of goods</label><br>
+            <input type="radio" name="rdexpect0" id="onexpect"><label for="onexpect">Other (please specify)</label><br>
+                <textarea id="txtexpect" name="rdexpect01" rows="2" cols="20"></textarea>
+    </div>
+    <div id="main8" class="para">
+        <h4 class="multiq">8. What made you choose Shamazon over other services? (Select all that apply.)</h4>
+        <input type="checkbox" name="rdchoice1" id="shamchoice"><label for="shamchoice">Quick delivery</label><br>
+        <input type="checkbox" name="rdchoice2" id="shamchoice"><label for="shamchoice">Cheaper prices than others</label><br>
+        <input type="checkbox" name="rdchoice3" id="shamchoice"><label for="shamchoice">Easy to navigate</label><br>
+        <input type="checkbox" name="rdchoice4" id="shamchoice"><label for="shamchoice">By a friend or family's recommendation</label><br>
+        <input type="checkbox" name="rdchoice5" id="shamchoice"><label for="shamchoice">Reliable service</label><br>
+        <input type="checkbox" name="rdchoice0" id="shamchoice"><label for="shamchoice">Other (please specify)</label><br>
+        <textarea id="txtsham" name="rdchoice01" rows="2" cols="20"></textarea>
+    </div>
+    <div id="main9" class="para">
+        <h4 class="mixq">9. Please select a word best describing the Shamazon company as a whole.</h4>
+            <select id="options" name="worddescribelist">
+            <option value=“1”>Quick</option>
+            <option value=“2”>Cheap</option>
+            <option value=“3”>Simple</option>
+            <option value=“4”>Appeasing</option>
+            <option value=“5”>Useful</option>
+            <option value=“6”>Slow</option>
+            <option value=“7”>Expensive</option>
+            <option value=“8”>Difficult</option>
+            <option value=“9”>Ugly</option>
+            <option value=“10”>Useless</option> 
+            <option value="11">Nice</option>              
+            </select>
+    </div>
+    <div id="main10" class="para">
+        <h4 class="mixq">10. If you have anything Shamazon would like to improve, please write freely down below.</h4>
+            <textarea name="comments" id="shamadvice" rows="5" cols="60"></textarea>
+    </div>
+    <div id="footer" class="para">
+        <h3 class="example">Thanks for your time! Shamazon will always work harder to make shopping easier and fun!</h3>
+    </div>
+</body>
+</html>

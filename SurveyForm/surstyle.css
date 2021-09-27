@@ -1,0 +1,37 @@
+* {
+    font-family: Helvetica;
+}
+body {
+   max-width: 500px;
+   margin:auto;
+}
+p, input.example {
+    font-style:italic;
+}
+#surtitle, #subtitle {
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 60%;
+}
+.multiq {
+   color:blue;
+}
+.singleq {
+    color:maroon;
+}
+.mixq {
+    color:darkgreen;
+}
+#pretxt {
+    font-family: 'Georgia';
+}
+#main3 h4 {
+    color:blueviolet;
+}
+#txtpre, #txtshpser, #txtexpect, #txtsham {
+    margin-left: 20px;
+}
