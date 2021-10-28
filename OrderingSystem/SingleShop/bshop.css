@@ -1,0 +1,255 @@
+* {
+    font-family: Helvetica;
+}
+#colorbar {
+    position: fixed;
+    width:1440px;
+    height: 30px;
+    background-color:#F13E1E ;
+    text-align: center;
+    color:white;
+    border:1px solid lightgray;
+}
+
+#BigPic {
+    position: relative;
+    object-fit: cover;
+    width:1060px;
+    height:300px;
+    top:30px;
+    bottom:0px;
+    left:190px;
+    border-radius: 50px;
+    padding: 15px;
+}
+#basicinfo {
+    position: relative;
+    top:-20px;
+    left:190px;
+    padding:25px;
+    /* border:3px solid black; */
+    font-size:150%;
+    line-height: 90%;
+}
+#basicinfo p {
+    font-size: 100%;
+    color:gray;
+}
+#incomefee {
+    position: relative;
+    top:-80px;
+    left:190px;
+    border:1px solid lightgray;
+    margin: 25px;
+    text-align: center;
+    width: 200px;
+    height:80px;
+}
+#incomefeebold {
+    font-weight: bold;
+}
+#deltime {
+    position: relative;
+    top:-187px;
+    left:391px;
+    border:1px solid lightgray;
+    margin: 25px;
+    text-align: center;
+    width: 200px;
+    height:80px;
+}
+#division {
+    border-top: 1px solid gray;
+    width: 1060px;
+    margin:20px;
+    position: relative;
+    top:-200px;
+    left:190px;
+    
+}
+#deltimebold {
+    font-weight: bold;
+}
+
+
+
+
+#burg1{
+    position: relative;
+    left:190px;
+    top:-200px;
+    width:500px;
+    height:150px;
+    padding: 20px;
+    border:1px solid lightgray;
+}
+#burg1 h4 {
+    font-size: 18px;
+}
+#burgi1 {
+    float: right;
+    height:auto;
+    width:150px;
+}
+
+#burg2{
+    position: relative;
+    left:190px;
+    top:-190px;
+    width:500px;
+    height:150px;
+    padding: 20px;
+    border:1px solid lightgray;
+}
+#burg2 h4 {
+    font-size: 18px;
+}
+#burgi2 {
+    float: right;
+    height:auto;
+    width:150px;
+}
+
+#msticks{
+    position: relative;
+    left:190px;
+    top:-180px;
+    width:500px;
+    height:150px;
+    padding: 20px;
+    border:1px solid lightgray;
+}
+#msticks h4 {
+    font-size: 18px;
+}
+#msticksi {
+    float: right;
+    height:auto;
+    width:150px;
+}
+
+#drink1{
+    position: relative;
+    left:190px;
+    top:-170px;
+    width:500px;
+    height:150px;
+    padding: 20px;
+    border:1px solid lightgray;
+}
+#drink1 h4 {
+    font-size: 18px;
+}
+#drinki1 {
+    float: right;
+    height:auto;
+    width:150px;
+}
+
+#drink2{
+    position: relative;
+    left:190px;
+    top:-160px;
+    width:500px;
+    height:150px;
+    padding: 20px;
+    border:1px solid lightgray;
+}
+#drink2 h4 {
+    font-size: 18px;
+}
+#drinki2 {
+    float: right;
+    height:auto;
+    width:150px;
+}
+
+#fries{
+    position: relative;
+    left:740px;
+    top:-1160px;
+    width:500px;
+    height:150px;
+    padding: 20px;
+    border:1px solid lightgray;
+}
+#fries h4 {
+    font-size: 18px;
+}
+#friesi {
+    float: right;
+    height:auto;
+    width:150px;
+}
+
+#rings{
+    position: relative;
+    left:740px;
+    top:-1150px;
+    width:500px;
+    height:150px;
+    padding: 20px;
+    border:1px solid lightgray;
+}
+#rings h4 {
+    font-size: 18px;
+}
+#ringsi {
+    float: right;
+    height:auto;
+    width:150px;
+}
+
+#tenders{
+    position: relative;
+    left:740px;
+    top:-1140px;
+    width:500px;
+    height:150px;
+    padding: 20px;
+    border:1px solid lightgray;
+}
+#tenders h4 {
+    font-size: 18px;
+}
+#tendersi {
+    float: right;
+    height:auto;
+    width:150px;
+}
+
+#burg4{
+    position: relative;
+    left:740px;
+    top:-1130px;
+    width:500px;
+    height:150px;
+    padding: 20px;
+    border:1px solid lightgray;
+}
+#burg4 h4 {
+    font-size: 18px;
+}
+#burgi4 {
+    float: right;
+    height:auto;
+    width:150px;
+}
+
+#bigshotburg{
+    position: relative;
+    left:740px;
+    top:-1120px;
+    width:500px;
+    height:150px;
+    padding: 20px;
+    border:1px solid lightgray;
+}
+#bigshotburg h4 {
+    font-size: 18px;
+}
+#burgi5 {
+    float: right;
+    height:auto;
+    width:150px;
+}

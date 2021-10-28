@@ -1,0 +1,265 @@
+* {
+    font-family: Helvetica;
+    
+}
+#colorbar {
+    /* position: fixed; */
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background-color:#F13E1E ;
+    text-align: center;
+    color:white;
+    border:1px solid lightgray;
+    overflow:hidden;
+}
+
+#foodbar {
+    /* position:relative; */
+    top:30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:40px;
+    background-color: white;
+    text-align: center;
+    padding-top: 15px;
+    overflow:hidden;
+    
+}
+
+#DeliveryBar {
+    /* position: -webkit-sticky; */
+    /* position: sticky; */
+    position: fixed;
+    top:80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:60px;
+    background-color: white;
+    text-align: left;
+    padding-top:10px;
+    border:1px solid lightgray;
+}
+
+#bshop {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    height:350px;
+    width:300px;
+    font-weight: bold;
+    font-size: large;
+    /* background-color: gray; */
+    background-color: white;
+    
+}
+
+#bshopi1 {
+    width:300px;
+    height:auto;
+}
+
+#bshop2 {
+    position: absolute;
+    top: 180px;
+    left: 400px;
+    height:350px;
+    width:300px;
+    font-weight: bold;
+    font-size: large;
+    /* background-color: gray; */
+    background-color: white;
+    
+}
+
+#bshopi2 {
+    width:300px;
+    height:auto;
+}
+
+#pshop {
+    position: absolute;
+    top: 180px;
+    left: 750px;
+    height:350px;
+    width:300px;
+    font-weight: bold;
+    font-size: large;
+    /* background-color: gray; */
+    background-color: white;
+    
+}
+
+#pshopi1 {
+    width:300px;
+    height:auto;
+}
+
+#pshop2 {
+    position: absolute;
+    top: 180px;
+    left: 1100px;
+    height:350px;
+    width:300px;
+    font-weight: bold;
+    font-size: large;
+    /* background-color: gray; */
+    background-color: white;
+    
+}
+
+#pshopi2 {
+    width:300px;
+    height:auto;
+}
+
+#bshop3 {
+    position: absolute;
+    top: 550px;
+    left: 50px;
+    height:350px;
+    width:300px;
+    font-weight: bold;
+    font-size: large;
+    /* /* background-color: gray; */
+    background-color: white;
+    
+}
+
+#bshopi3 {
+    width:300px;
+    height:auto;
+}
+
+
+#bshop4 {
+    position: absolute;
+    top: 550px;
+    left: 400px;
+    height:350px;
+    width:300px;
+    font-weight: bold;
+    font-size: large;
+    /* background-color: gray; */
+    background-color: white;
+    
+}
+
+#bshopi4 {
+    width:300px;
+    height:auto;
+}
+
+
+#bshop5 {
+    position: absolute;
+    top: 550px;
+    left: 750px;
+    height:350px;
+    width:300px;
+    font-weight: bold;
+    font-size: large;
+    /* background-color: gray; */
+    background-color: white;
+    
+}
+
+#bshopi5 {
+    width:300px;
+    height:auto;
+}
+
+#bshop6 {
+    position: absolute;
+    top: 550px;
+    left: 1100px;
+    height:350px;
+    width:300px;
+    font-weight: bold;
+    font-size: large;
+    /* background-color: gray; */
+    background-color: white;
+    
+}
+
+#bshopi6 {
+    width:300px;
+    height:auto;
+}
+
+
+#pshop3 {
+    position: absolute;
+    top: 910px;
+    left: 50px;
+    height:350px;
+    width:300px;
+    font-weight: bold;
+    font-size: large;
+    /* background-color: gray; */
+    background-color: white;
+    
+}
+
+#pshopi3 {
+    width:300px;
+    height:auto;
+}
+
+#pshop4 {
+    position: absolute;
+    top: 910px;
+    left: 400px;
+    height:350px;
+    width:300px;
+    font-weight: bold;
+    font-size: large;
+    /* background-color: gray; */
+    background-color: white;
+    
+}
+
+#pshopi4{
+    width:300px;
+    height:auto;
+}
+
+#McDonalds {
+    position: absolute;
+    top: 910px;
+    left: 750px;
+    height:350px;
+    width:300px;
+    font-weight: bold;
+    font-size: large;
+    /* background-color: gray; */
+    background-color: white;
+    
+}
+
+#md{
+    width:300px;
+    height:auto;
+}
+
+#bshop7 {
+    position: absolute;
+    top: 910px;
+    left: 1100px;
+    height:350px;
+    width:300px;
+    font-weight: bold;
+    font-size: large;
+    /* background-color: gray; */
+    background-color: white;
+    
+}
+
+#bshopi7 {
+    width:300px;
+    height:auto;
+}
