@@ -1,0 +1,26 @@
+* {
+    font-family: Helvetica;
+    background-color: green;
+    text-align: center;
+}
+.image {
+    width: 400px;
+    height:400px;
+    object-fit: cover;
+}
+.space {
+    display:flex;
+    justify-content:space-around;
+}
+.newspace {
+    display:flex;
+    justify-content:space-around;
+    height:300px;
+}
+h2, p ,.content{
+    background-color: white;
+}
+.content {
+    padding:10 10 10 10;
+    width:400px;
+}
