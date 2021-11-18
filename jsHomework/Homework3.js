@@ -15,9 +15,9 @@ if (RunnerAge > 18 && registerEarly === true) {
 if (RunnerAge > 18 && registerEarly === true) {
     console.log("Your race time is 9:30 am. Your race number is " + bigNum + "." + " Good Luck! :)")
 } else if (RunnerAge > 18 && registerEarly === false) { 
-    console.log("Your race time is 11:00am. Your race number is " + bigNum + "." + " Good Luck! :)")
+    console.log("Your race time is 11:00 am. Your race number is " + bigNum + "." + " Good Luck! :)")
 } else if (RunnerAge < 18) {
-    console.log("Your race time is 11:00am. Your race number is " + bigNum + "." + " Good Luck! :)")
+    console.log("Your race time is 12:30 pm. Your race number is " + bigNum + "." + " Good Luck! :)")
 } else {
     console.log("Please seek more guidance at the registration desk. :)")
 }
