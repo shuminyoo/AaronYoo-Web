@@ -30,14 +30,14 @@ console.log(`Is the sum less than 100? : ${bigNum(20,20)}`);
 //Question 4
 
 function gettingOlder (year) {
-    let q4Result = year / 4
-    if (q4Result = true) {
+    let q4Result = year % 4
+    if (q4Result === 0) {
         return true;
     } else {
         return false;
     }
 }
-console.log(`Is this a leap year? : ${gettingOlder(2020)}`)
+console.log(`Is this a leap year? : ${gettingOlder(2021)}`)
 
 //Question 5
 
