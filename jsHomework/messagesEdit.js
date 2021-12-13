@@ -31,7 +31,11 @@ console.log(secretMessage.length); //Logs 23
 
 const endNewWords = secretMessage.push("to", "Program"); //Added "to" and "Program" to the end of the Array
 
-secretMessage [secretMessage.length - 18] ="right"; //Changed "easily" to "right"
+if(secretMessage.indexOf("easily") != -1) {
+  secretMessage [secretMessage.indexOf("easily")] = "right" //Changed "easily" to "right"
+} else {
+  console.log("Uh oh")
+}
 
 const goodbyeFirst = secretMessage.shift(); //Deleted the first string
 
