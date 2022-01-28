@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="calculator.css" rel="stylesheet">
+</head>
+<body>
+    <div id="title">
+        <p id="titleCard">Calculator</p>
+    </div>
+
+    <div id="main">
+
+        <p class="names">Enter First Value</p>
+        <input id="value1" type="number">
+
+        <p class="names">Enter Second Value</p>
+        <input id="value2" type="number"><br><br>
+        
+        <input type="button" value="Result" id="button" onclick = "clicked()"><br><br>
+
+        <textarea id="return"></textarea>
+    </div>
+
+    <script>
+        let value_1 = document.getElementById("value1")
+        let value_2 = document.getElementById("value2")
+        let result = document.getElementById("return")
+        let preReturn  = 0;
+        function clicked() {
+            let preReturn = value_1.valueAsNumber + value_2.valueAsNumber
+            result.value = preReturn
+        }
+    </script>
+</body>
+</html>
