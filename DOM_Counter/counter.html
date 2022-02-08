@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link href="counter.css" rel="stylesheet">
+</head>
+<body>
+    <div id="body">
+        <h1 id="title">COUNTER</h1>
+
+        <div id="resultBox">
+            <p id="result">0</p>
+        </div>
+
+        <input type="button" id="down" value="DOWN" onclick="counterDOWN()">
+
+
+        <input type="button" id="up" value="UP" onclick="counterUP()">
+
+
+        <input type="button" id="reset" value="RESET" onclick="counterRESET()">
+
+    </div>
+
+    <script>
+        let customColor = document.querySelector("#result")
+
+        function counterUP() {
+            let counterResult = Number(document.getElementById("result").textContent) + 1;
+            document.getElementById("result").innerHTML = counterResult;
+        
+            if(counterResult > 0) {
+                customColor.style.color = "blue"
+            }
+            if(counterResult === 0) {
+                customColor.style.color = "black"
+            }
+        }
+
+        function counterDOWN() {
+            let counterResult = Number(document.getElementById("result").textContent) - 1;
+            document.getElementById("result").innerHTML = counterResult;
+
+            if(counterResult < 0) {
+                customColor.style.color = "red"
+            }
+
+            if(counterResult === 0) {
+                customColor.style.color = "black"
+            }
+        }
+
+        function counterRESET() {
+            let counterResult = Number(document.getElementById("result").textContent) - Number(document.getElementById("result").textContent)
+            document.getElementById("result").innerHTML = counterResult;
+
+            if(counterResult === 0) {
+                customColor.style.color = "black"
+            }
+        }
+    </script>
+</body>
+</html>
